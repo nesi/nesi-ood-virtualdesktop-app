@@ -112,14 +112,8 @@ script:
         destination_path: /var/run/munge/munge.socket.2
       - type: host
         name: slurm-conf
-        host_type: File
-        path: /run/slurm/conf/slurm.conf
-        destination_path: /etc/slurm/slurm.conf
-      - type: host
-        name: slurm-nodes-conf
-        host_type: File
-        path: /run/slurm/conf/nodes.conf
-        destination_path: /etc/slurm/nodes.conf
+        path: /run/slurm/conf
+        destination_path: /etc/slurm/
     configmap:
       files:
         - filename: "logging.conf"
