@@ -1,6 +1,6 @@
 ---
 name: Virtual Desktop (Xfce) on NeSI OOD
-category: Applications
+category: Desktops
 role: batch_connect
 description: |
   This will launch an Interactive Xfce desktop session.
